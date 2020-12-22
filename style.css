@@ -1,0 +1,231 @@
+body {
+    margin: 0;
+}
+
+header {
+    position: relative;
+    height: 0;
+}
+
+header img {
+    width: auto;
+    display: block;
+}
+
+
+
+nav {
+    height: 4vh;
+    padding: 1rem;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 0.60rem;
+    text-align: right;
+    display: grid;
+    /*     flex-direction: row;*/
+    justify-content: space-around;
+    grid-row-gap: 5px;
+    grid-template-columns: 1fr;
+    font-family: 'Rock Salt', cursive;
+
+}
+
+nav a {
+    position: relative;
+    left: 5vw;
+    top: 94.2vw;
+    display: inline-block;
+    padding: 2px;
+    /*     background-color: papayawhip;*/
+    width: 100px;
+    padding: 3px 25px;
+    margin: 2px;
+    border-radius: 20px;
+    text-align: center;
+    max-width: 1200rem;
+    color: burlywood;
+}
+
+nav a:hover {
+    background-color: papayawhip;
+}
+
+#first_section {
+    width: 100%;
+    height: 100vh;
+    background-image: url(Baggrund_mobil.jpg);
+    background-size: cover;
+    background-position: 25% 10%;
+    max-width: none;
+    display: grid;
+    background-position: 70%;
+
+
+
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+
+
+}
+
+
+h1 {
+    font-family: cursive;
+    color: #E2A244;
+    text-align: center;
+    text-shadow: 1px 1px 1px #2D3A2A;
+    font-size: 1.24rem;
+}
+
+#first_section .section_wrapper .overskrift {
+    position: relative;
+    left: 8vw;
+    top: 86.2vw;
+}
+
+img {
+    width: 100%;
+}
+
+section {
+    max-width: 1200px;
+
+    margin: 0 auto;
+    padding: 0;
+
+}
+
+#second_section {
+    background-color: #FDF5F6;
+
+    overflow-x: hidden;
+    max-width: 1200rem;
+
+}
+
+#second_section .section_wrapper {
+
+    padding: 7px 2px;
+    margin: 30px;
+}
+
+
+
+#second_section h2 {
+    font-family: cursive;
+    color: #E2A244;
+    text-align: center;
+    text-shadow: 1px 1px 1px #2D3A2A;
+    font-size: 2rem;
+}
+
+#second_section .section_wrapper h4 {
+    font-family: 'Rock Salt', cursive;
+    color: burlywood;
+
+
+}
+
+/*------------------ web----------------------*/
+@media only screen and (min-width: 600px) {
+
+
+    nav {
+        height: 4vh;
+        padding: 1.2rem;
+        text-transform: uppercase;
+        font-weight: 800;
+        font-size: 1.2rem;
+        text-align: right;
+        display: inline-block;
+        justify-content: space-around;
+
+    }
+
+    nav a {
+        position: relative;
+        display: inline-block;
+        padding: 7px;
+        /*        background-color: papayawhip;*/
+        width: 100px;
+        padding: 8px 40px;
+        margin: -7px;
+        border-radius: 20px;
+        text-align: center;
+        max-width: 1200rem;
+        color: burlywood;
+
+
+        left: 7vw;
+        top: 48.2vw;
+        column-gap: 20px;
+
+
+    }
+
+    nav a:hover {
+        background-color: #FED8F5;
+    }
+
+    #first_section {
+        width: 100%;
+        height: 100vh;
+        background-image: url(Bagggrund_web.jpg);
+        background-size: cover;
+        max-width: none;
+        background-position: 20%;
+
+
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+
+    }
+
+
+
+
+    h1 {
+        font-family: cursive;
+        color: #E2A244;
+        /*        text-shadow: 1px 1px 1px #2D3A2A;*/
+        font-size: 1.7rem;
+
+    }
+
+    #first_section .section_wrapper .overskrift {
+        position: relative;
+        left: -1.2vw;
+        top: 33.2vw;
+    }
+
+}
+
+img {
+    width: 100%;
+}
+
+section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+
+
+}
+
+#second_section .section_wrapper {
+    background-color: #FDF5F6;
+
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    column-gap: 10px;
+    padding: 40px;
+    margin-right: 120px;
+
+
+}
+
+/*
+col {
+    width: 100%;
+}
+*/
