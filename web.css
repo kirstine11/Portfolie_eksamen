@@ -1,0 +1,274 @@
+body {
+    margin: 0;
+}
+
+header {
+    position: relative;
+    height: 0;
+}
+
+
+
+header img {
+    width: auto;
+    display: block;
+}
+
+
+#third_section nav {
+    height: 4vh;
+    padding: 1.2rem;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 0.7rem;
+    text-align: right;
+    display: inline-block;
+    justify-content: space-around;
+    font-family: 'Rock Salt', cursive;
+
+
+}
+
+#third_section nav a {
+    position: relative;
+    display: inline-block;
+    padding: 7px;
+    /*        background-color: papayawhip;*/
+    width: 100px;
+    padding: 8px 40px;
+    margin: -33px;
+    border-radius: 20px;
+    text-align: center;
+    max-width: 1200rem;
+    color: burlywood;
+
+    left: 1vw;
+    top: -12.8vw;
+
+    column-gap: 20px;
+
+
+}
+
+
+nav a:hover {
+    background-color: papayawhip;
+}
+
+nav a:first-child {
+    display: inline;
+}
+
+
+
+
+h1 {
+    font-family: cursive;
+    color: #E2A244;
+    text-align: center;
+    text-shadow: 1px 1px 1px #2D3A2A;
+    font-size: 1.24rem;
+}
+
+
+
+img {
+    width: 100%;
+}
+
+section {
+    max-width: 1200px;
+
+    margin: 0 auto;
+    padding: 0;
+
+}
+
+
+
+
+#third_section {
+    background-color: #F4E9EA;
+
+    overflow-x: hidden;
+    max-width: 1200rem;
+    padding: 60px 30px;
+
+
+}
+
+/*
+#third_section .section_wrapper {
+
+    padding: 10px 50px;
+    margin-left: 10px;
+}
+*/
+
+
+
+#third_section h2 {
+    font-family: cursive;
+    color: #E2A244;
+    text-align: center;
+    text-shadow: 1px 1px 1px #2D3A2A;
+    font-size: 2rem;
+}
+
+#third_section .section_wrapper h4 {
+    /*    font-family: 'Rock Salt', cursive;*/
+    color: burlywood;
+    font-size: 1.3rem;
+
+
+}
+
+
+
+#third_section .Tekst {
+
+    position: relative;
+
+    top: -43vw;
+    left: -19vw;
+
+
+}
+
+/*------------------ web----------------------*/
+@media only screen and (min-width: 600px) {
+
+
+
+
+
+    nav a:hover {
+        background-color: #FED8F5;
+    }
+
+
+
+
+    h1 {
+        font-family: cursive;
+        color: #E2A244;
+        /*        text-shadow: 1px 1px 1px #2D3A2A;*/
+        font-size: 1.7rem;
+
+    }
+
+
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    section {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+
+    #third_section nav {
+        height: 10vh;
+        padding: 1.2rem;
+        text-transform: uppercase;
+        font-weight: 800;
+        font-size: 1.2rem;
+        text-align: right;
+        display: inline-block;
+        justify-content: space-around;
+        font-family: 'Rock Salt', cursive;
+
+
+    }
+
+    #third_section nav a {
+        position: relative;
+        display: inline-block;
+        padding: 7px;
+        /*        background-color: papayawhip;*/
+        width: 100px;
+        padding: 8px 40px;
+        margin: -7px;
+        border-radius: 20px;
+        text-align: center;
+        max-width: 1200rem;
+        color: burlywood;
+
+
+
+        left: 7vw;
+        top: 48.2vw;
+
+        column-gap: 20px;
+
+
+    }
+
+    #third_section .section_wrapper .bill {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        column-gap: 10px;
+        margin-left: 20px;
+        position: relative;
+        left: 58vw;
+
+        top: -34vw;
+        width: 25vw;
+
+
+    }
+
+    #third_section .section_wrapper {
+        display: grid;
+        grid-template-columns: 3fr 3fr;
+        column-gap: 120px;
+        padding: 90px -40px;
+        margin-left: 90px;
+        left: 100px;
+
+        top: -8vw;
+
+
+
+    }
+
+    #third_section h2 {
+        position: relative;
+        top: -8vw;
+    }
+
+
+    #third_section h4 {
+        position: relative;
+        left: 100px;
+
+        top: -8vw;
+    }
+
+    #third_section p {
+        position: relative;
+        left: 100px;
+
+        top: -8vw;
+    }
+
+    #third_section .Tekst {
+
+        position: relative;
+
+        top: -9vw;
+        left: -59vw;
+
+
+    }
+
+    #third_section .button {
+        position: relative;
+        left: -46vw;
+
+        top: 4vw;
+        max-width: 60%;

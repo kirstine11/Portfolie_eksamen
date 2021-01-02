@@ -1,0 +1,331 @@
+body {
+    margin: 0;
+}
+
+header {
+    position: relative;
+    height: 0;
+}
+
+
+
+header img {
+    width: auto;
+    display: block;
+}
+
+
+
+#header nav {
+    height: 4vh;
+    padding: 1.2rem;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 0.7rem;
+    text-align: right;
+    display: inline-block;
+    justify-content: space-around;
+    font-family: 'Rock Salt', cursive;
+
+
+}
+
+#header nav a {
+    position: relative;
+    display: inline-block;
+    padding: 7px;
+    /*        background-color: papayawhip;*/
+    width: 100px;
+    padding: 8px 40px;
+    margin: -33px;
+    border-radius: 20px;
+    text-align: center;
+    max-width: 1200rem;
+    color: burlywood;
+
+    left: -6vw;
+    top: -3.8vw;
+
+    column-gap: 20px;
+
+
+}
+
+nav a:hover {
+    background-color: papayawhip;
+}
+
+nav a:first-child {
+    display: inline;
+}
+
+
+
+h2 {
+    font-family: cursive;
+    color: #E2A244;
+    text-align: center;
+    text-shadow: 1px 1px 1px #2D3A2A;
+    font-size: 3rem;
+    position: relative;
+    top: 10vw;
+}
+
+
+
+img {
+    width: 100%;
+}
+
+section {
+    max-width: 1200px;
+
+    margin: 0 auto;
+    padding: 0;
+
+}
+
+#fifht_section {
+    background-color: #F4E9EA;
+
+    overflow-x: hidden;
+    max-width: 1200rem;
+
+}
+
+h4 {
+
+    color: burlywood;
+    font-size: 1.3rem;
+    position: relative;
+    top: 58vw;
+
+}
+
+
+.bill {
+
+
+    position: relative;
+    left: -2vw;
+
+    top: 23vw;
+    width: 100vw;
+
+
+}
+
+.mySlides {
+    position: relative;
+    left: 1.8vw;
+
+    bottom: 183vw;
+    width: 98vw;
+    border-radius: 20px;
+
+
+}
+
+
+.button {
+    position: relative;
+    left: 0vw;
+
+    top: 66vw;
+    max-width: 15%;
+
+
+
+}
+
+p {
+    position: relative;
+    top: 58vw;
+}
+
+
+
+/*------------------ web----------------------*/
+@media only screen and (min-width: 600px) {
+
+
+
+
+
+
+    #header nav {
+        height: 4vh;
+        padding: 1.2rem;
+        text-transform: uppercase;
+        font-weight: 800;
+        font-size: 1.2rem;
+        text-align: right;
+        display: inline-block;
+        justify-content: space-around;
+
+    }
+
+    #header nav a {
+        position: relative;
+        display: inline-block;
+        padding: 7px;
+        /*        background-color: papayawhip;*/
+        width: 100px;
+        padding: 8px 40px;
+        margin: -7px;
+        border-radius: 20px;
+        text-align: center;
+        max-width: 1200rem;
+        color: burlywood;
+
+        left: 7vw;
+        top: 48.2vw;
+
+        column-gap: 20px;
+
+
+    }
+
+    nav a:hover {
+        background-color: #FED8F5;
+    }
+
+
+
+
+    h1 {
+        font-family: cursive;
+        color: #E2A244;
+        /*        text-shadow: 1px 1px 1px #2D3A2A;*/
+        font-size: 1.7rem;
+
+    }
+
+    h4 {
+        color: burlywood;
+        font-size: 1.3rem;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    section {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+
+
+
+    .mySlides {
+        position: relative;
+        left: -5.5vw;
+
+        top: -27vw;
+        width: 34vw;
+        border-radius: 3.7vw;
+
+
+    }
+
+
+    #fifht_section .section_wrapper {
+        display: grid;
+        grid-template-columns: 3fr 3fr;
+        column-gap: 120px;
+        padding: 90px -40px;
+        margin-left: 90px;
+        left: 100px;
+
+        top: -8vw;
+
+
+
+    }
+
+    #fifht_section nav {
+        height: 10vh;
+        padding: 1.2rem;
+        text-transform: uppercase;
+        font-weight: 800;
+        font-size: 1.2rem;
+        text-align: right;
+        display: inline-block;
+        justify-content: space-around;
+        font-family: 'Rock Salt', cursive;
+
+
+    }
+
+    #fifht_section nav a {
+        position: relative;
+        display: inline-block;
+        padding: 7px;
+        /*        background-color: papayawhip;*/
+        width: 100px;
+        padding: 8px 40px;
+        margin: -7px;
+        border-radius: 20px;
+        text-align: center;
+        max-width: 1200rem;
+        color: burlywood;
+
+
+
+        left: 7vw;
+        top: 48.2vw;
+
+        column-gap: 20px;
+
+
+    }
+
+
+
+    #fifht_section .button {
+        position: relative;
+        left: 0vw;
+
+        top: 2vw;
+        max-width: 15%;
+
+
+
+    }
+
+    /*
+    #fifth_section .h1 {
+
+        color: burlywood;
+        font-size: 1.3rem;
+
+    }
+*/
+
+    #fifth_section .section_wrapper .col .h4 {
+
+        color: burlywood;
+        font-size: 1.3rem;
+
+    }
+
+
+    .bill {
+
+
+        position: relative;
+        left: -4vw;
+
+        top: 2vw;
+        width: 35vw;
+
+
+    }
+
+
+
+
+}

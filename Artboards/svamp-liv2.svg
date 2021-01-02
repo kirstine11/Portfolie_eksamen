@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="70" height="110" viewBox="0 0 70 110">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #926130;
+      }
+
+      .cls-2 {
+        fill: #d10023;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1" data-name="Layer 1">
+    <g>
+      <path class="cls-1" d="M0,94.63c27.5,21,54.56,18.4,62,4.56,8.93-16.72-5.93-59-27-60.13C20.45,38.3,3.79,57,1.72,85.06"/>
+      <path class="cls-2" d="M2.64,43.75c51,5.64,65.06-.57,67.07-8.38C72.64,24,53.24-3.92,30.45.46c-13.6,2.61-24.78,16-27.72,33.65"/>
+      <ellipse class="cls-3" cx="28.62" cy="26.44" rx="3.31" ry="2.38" transform="translate(-0.52 0.57) rotate(-1.14)"/>
+      <ellipse class="cls-3" cx="34.91" cy="13.62" rx="3.31" ry="2.38" transform="translate(-0.26 0.7) rotate(-1.14)"/>
+      <ellipse class="cls-3" cx="38.24" cy="36.26" rx="3.31" ry="2.38" transform="translate(-0.71 0.77) rotate(-1.14)"/>
+      <ellipse class="cls-3" cx="47.51" cy="23.4" rx="3.31" ry="2.38" transform="translate(-0.45 0.95) rotate(-1.14)"/>
+      <ellipse class="cls-3" cx="23.02" cy="13.88" rx="3.31" ry="2.38" transform="translate(-0.27 0.46) rotate(-1.14)"/>
+      <ellipse class="cls-3" cx="29.02" cy="38.05" rx="3.31" ry="2.38" transform="matrix(1, -0.02, 0.02, 1, -0.75, 0.58)"/>
+      <ellipse class="cls-3" cx="50.46" cy="38.13" rx="3.31" ry="2.38" transform="translate(-0.75 1.01) rotate(-1.14)"/>
+    </g>
+  </g>
+</svg>
