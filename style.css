@@ -76,7 +76,8 @@ nav a:first-child {
 }
 
 #first_section nav {
-    position: relative top: 3vw;
+    position: relative;
+    top: 3vw;
 }
 
 h1 {

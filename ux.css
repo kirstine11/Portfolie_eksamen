@@ -1,6 +1,8 @@
 body {
     margin: 0;
     background-image: url(billeder/baggrund.jpg);
+    background-position: bottom;
+    /*    overflow: hidden;*/
 
 
 }
@@ -50,6 +52,8 @@ header img {
     top: -3.8vw;
 
     column-gap: 20px;
+
+
 }
 
 nav a:hover {
@@ -87,12 +91,23 @@ section {
 
 }
 
-#fifht_section {
+#fourth_section {
 
     overflow-x: hidden;
     max-width: 1200rem;
 
 }
+
+/*
+#fourth_section .section_wrapper .col {
+
+    position: relative;
+    left: 1vw;
+    top: -68vw;
+}
+*/
+
+
 
 h4 {
     font-family: 'Rock Salt', cursive;
@@ -102,9 +117,59 @@ h4 {
 
 }
 
-#fifht_section .section_wrapper .Tekst {
+.bill {
+
+
+    left: 35.3vw;
+    bottom: 82.6vw;
     position: relative;
-    top: -5vw;
+    width: 30%;
+}
+
+.bill1 {
+
+
+
+    left: 0.35vw;
+    bottom: 6.6vw;
+    position: relative;
+
+}
+
+/*
+.bill {
+
+    grid-column: 1/2;
+    grid-row: 1/2;
+    width: 29.3vw;
+    left: 6.8vw;
+    bottom: 72.9vw;
+    position: relative;
+
+}
+
+.bill1 {
+
+    width: 87.2vw;
+    left: -22.65vw;
+    bottom: 6.6vw;
+    position: relative;
+
+}
+
+
+.note1 {
+    position: relative;
+    left: 6vw;
+
+    top: -249.7vw;
+}
+
+.note2 {
+    position: relative;
+    left: 10vw;
+
+    top: -328.2vw;
 }
 
 
@@ -114,42 +179,26 @@ h4 {
     position: relative;
     left: -2vw;
 
-    top: -1vw;
+    top: 44vw;
     width: 100vw;
 
 
 }
 
 
-.mySlides {
-    position: relative;
-    left: 1.8vw;
-    top: -392vw;
-    width: 100%;
-    border-radius: 0px;
-}
-
 
 .button {
     position: relative;
-    left: 4vw;
+    left: 0vw;
 
-    top: 0vw;
-    max-width: 30%;
+    top: 66vw;
+    max-width: 15%;
+
+
 
 }
+*/
 
-.note {
-    position: relative;
-    top: 7vw;
-    left: -21vw;
-}
-
-.note2 {
-    position: relative;
-    top: -93vw;
-    left: 23vw;
-}
 
 
 
@@ -159,10 +208,6 @@ h4 {
 
 
 
-
-    body {
-        overflow: hidden;
-    }
 
 
 
@@ -236,112 +281,112 @@ h4 {
 
 
 
-    /*
-    .mySlides {
-
-        position: relative;
-        left: -5.5vw;
-
-        bottom: 108.5vw;
-        width: 34vw;
-
-        border-radius: 3.7vw;
-
-
-    }
-*/
-
-
-    #fifht_section .section_wrapper {
+    #fourth_section .section_wrapper {
         display: grid;
-        grid-template-columns: 3fr 3fr;
+        grid-template-columns: 1fr 1fr 1fr;
         column-gap: 120px;
-        padding: 90px -40px;
         margin-left: 90px;
-        left: 100px;
-
-        top: -8vw;
+        overflow: hidden;
 
 
-
-    }
-
-
-
-
-
-    #fifht_section .button {
-        position: relative;
-        left: 0vw;
-
-        top: 2vw;
-        max-width: 15%;
-
-
-
-    }
-
-    /*
-    #fifth_section .h1 {
-
-        color: burlywood;
-        font-size: 1.3rem;
-
-    }
-*/
-
-    #fifth_section .section_wrapper .col .h4 {
-
-        color: burlywood;
-        font-size: 1.3rem;
-
-    }
-
-    #fifth_section .col {
-        background-color: aqua;
-        grid-row: -1/2;
     }
 
 
     .bill {
 
+        grid-column: 1/2;
+        grid-row: 1/2;
+        width: 14.1vw;
+        left: 16.4vw;
+        bottom: -4.6vw;
+        position: relative;
 
+    }
+
+    .bill1 {
+
+        grid-column: 1/2;
+        grid-row: 1/2;
+        width: 46.2vw;
+        left: 0.35vw;
+        bottom: 6.6vw;
+        position: relative;
+
+    }
+
+    #fourth_section .section_wrapper .col {
+        grid-column: 2/4;
+        grid-row: 1/2;
         position: relative;
         left: -4vw;
-
-        top: 2vw;
-        width: 35vw;
-
-
     }
 
-    #fifth_section .col .container a p {
+
+
+
+
+    .container .tekst {
         position: relative;
-        top: 2vw;
+        top: -34vw;
+        left: 3.4vw;
     }
+
+
+    .container .tekst2 {
+        position: relative;
+        top: -75vw;
+        left: 13.2vw;
+    }
+
+
 
 
 
     .note {
         position: relative;
-        top: -26vw;
-        left: 16vw;
+        left: -15vw;
+
+        top: -13.7vw;
+        max-width: 100%;
+    }
+
+
+    .note1 {
+        position: relative;
+        left: -2vw;
+
+        top: -54.7vw;
+        max-width: 100%;
     }
 
     .note2 {
         position: relative;
-        top: -69vw;
-        left: 6vw;
+        left: 10vw;
+
+        top: -95.2vw;
+        max-width: 100%;
     }
 
 
-    #fifht_section .section_wrapper .Tekst {
-        position: relative;
-        top: 0vw;
+    #fourth_section .section_wrapper .h4 {
+        font-family: 'Rock Salt', cursive;
+
+        color: burlywood;
+        font-size: 1.3rem;
+
     }
 
 
+    /*
+    .bill {
 
+
+        grid-column: 4/5;
+        grid-row: 1/2;
+
+
+    }
+*/
 
 
 }

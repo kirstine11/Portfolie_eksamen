@@ -1,5 +1,9 @@
 body {
     margin: 0;
+    background-image: url(billeder/baggrund.jpg);
+    background-position: 110%;
+    /*    overflow: hidden;*/
+
 }
 
 header {
@@ -15,7 +19,7 @@ header img {
 }
 
 
-#third_section nav {
+#header nav {
     height: 4vh;
     padding: 1.2rem;
     text-transform: uppercase;
@@ -29,7 +33,7 @@ header img {
 
 }
 
-#third_section nav a {
+#header nav a {
     position: relative;
     display: inline-block;
     padding: 7px;
@@ -42,8 +46,8 @@ header img {
     max-width: 1200rem;
     color: burlywood;
 
-    left: 1vw;
-    top: -12.8vw;
+    left: -6vw;
+    top: 0.2vw;
 
     column-gap: 20px;
 
@@ -88,11 +92,37 @@ section {
 
 
 #third_section {
-    background-color: #F4E9EA;
 
     overflow-x: hidden;
     max-width: 1200rem;
     padding: 60px 30px;
+
+
+}
+
+#third_section .section_wrapper .bill {
+
+    column-gap: 0px;
+    margin-left: 0px;
+
+    width: 100%;
+
+
+}
+
+.js {
+    position: relative;
+    top: -35vw;
+    left: 1vw;
+
+}
+
+#third_section #tekst {
+
+    position: relative;
+
+    top: -17.5vw;
+    left: 1vw;
 
 
 }
@@ -116,7 +146,7 @@ section {
 }
 
 #third_section .section_wrapper h4 {
-    /*    font-family: 'Rock Salt', cursive;*/
+    font-family: 'Rock Salt', cursive;
     color: burlywood;
     font-size: 1.3rem;
 
@@ -125,15 +155,6 @@ section {
 
 
 
-#third_section .Tekst {
-
-    position: relative;
-
-    top: -43vw;
-    left: -19vw;
-
-
-}
 
 /*------------------ web----------------------*/
 @media only screen and (min-width: 600px) {
@@ -171,7 +192,7 @@ section {
     }
 
 
-    #third_section nav {
+    #header nav {
         height: 10vh;
         padding: 1.2rem;
         text-transform: uppercase;
@@ -185,7 +206,7 @@ section {
 
     }
 
-    #third_section nav a {
+    #header nav a {
         position: relative;
         display: inline-block;
         padding: 7px;
@@ -200,75 +221,84 @@ section {
 
 
 
-        left: 7vw;
-        top: 48.2vw;
+        left: 11vw;
+        top: -0.8vw;
 
         column-gap: 20px;
 
 
     }
 
-    #third_section .section_wrapper .bill {
-        display: grid;
-        grid-template-columns: 2fr 1fr;
-        column-gap: 10px;
-        margin-left: 20px;
-        position: relative;
-        left: 58vw;
-
-        top: -34vw;
-        width: 25vw;
 
 
-    }
+
+
 
     #third_section .section_wrapper {
         display: grid;
         grid-template-columns: 3fr 3fr;
-        column-gap: 120px;
-        padding: 90px -40px;
-        margin-left: 90px;
-        left: 100px;
 
-        top: -8vw;
-
+        column-gap: 70px;
+        /*        padding: 90px 3px;*/
+        margin-left: 173px;
 
 
     }
 
-    #third_section h2 {
-        position: relative;
-        top: -8vw;
+
+    #third_section .section_wrapper .bill {
+        display: grid;
+        grid-column: 2/2;
+        grid-row: 1/2;
+        column-gap: 10px;
+        margin-left: 20px;
+
+        width: 20vw;
+
+
     }
+
+
+
+
 
 
     #third_section h4 {
-        position: relative;
-        left: 100px;
-
-        top: -8vw;
+        text-align: center;
     }
 
-    #third_section p {
-        position: relative;
-        left: 100px;
 
-        top: -8vw;
-    }
 
-    #third_section .Tekst {
+
+
+    #third_section #tekst {
 
         position: relative;
 
-        top: -9vw;
-        left: -59vw;
+        top: -4.5vw;
+        left: -1vw;
 
 
     }
 
-    #third_section .button {
-        position: relative;
-        left: -46vw;
+    .button {
 
-        top: 4vw;
+
+        position: relative;
+        left: 26vw;
+
+        top: -3vw;
+
         max-width: 60%;
+    }
+
+
+    .js {
+        position: relative;
+        top: -13vw;
+        left: 27vw;
+
+    }
+
+
+}
