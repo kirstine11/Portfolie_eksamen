@@ -1,10 +1,64 @@
 body {
     margin: 0;
-    background-image: url(billeder/baggrund.jpg);
+
 
 
 }
 
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #FDEDED;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: rosybrown;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidebar a:hover {
+    color: rgba(206, 132, 186, 0.91);
+}
+
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #FDEDED;
+    color: rosybrown;
+    padding: 10px 15px;
+    border: none;
+}
+
+.openbtn:hover {
+    background-color: #444;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+
+/*
 header {
     position: relative;
     height: 0;
@@ -37,7 +91,7 @@ header img {
     position: relative;
     display: inline-block;
     padding: 7px;
-    /*        background-color: papayawhip;*/
+            background-color: papayawhip;
     width: 100px;
     padding: 8px 40px;
     margin: -33px;
@@ -59,6 +113,7 @@ nav a:hover {
 nav a:first-child {
     display: inline;
 }
+*/
 
 
 
@@ -67,8 +122,6 @@ h1 {
     color: #E2A244;
     text-align: center;
     text-shadow: 1px 1px 1px #2D3A2A;
-    font-size: 2rem;
-
 
 }
 
@@ -95,7 +148,7 @@ section {
 }
 
 h4 {
-    font-family: 'Rock Salt', cursive;
+    font-family: 'Rock Salt';
 
     color: burlywood;
     font-size: 1.3rem;
@@ -112,7 +165,7 @@ h4 {
 
 
     position: relative;
-    left: -2vw;
+    left: 0vw;
 
     top: -1vw;
     width: 100vw;
@@ -120,13 +173,12 @@ h4 {
 
 }
 
-
 .mySlides {
     position: relative;
-    left: 1.8vw;
-    top: -392vw;
-    width: 100%;
-    border-radius: 0px;
+    top: -382.6vw;
+    border-radius: 14vw;
+    left: 2.5vw;
+    width: 95%;
 }
 
 
@@ -134,21 +186,28 @@ h4 {
     position: relative;
     left: 4vw;
 
-    top: 0vw;
+    top: -184vw;
     max-width: 30%;
 
 }
 
 .note {
     position: relative;
-    top: 7vw;
-    left: -21vw;
+    top: -19vw;
+    left: 6vw;
 }
 
 .note2 {
     position: relative;
-    top: -93vw;
-    left: 23vw;
+    top: -120vw;
+    left: 32vw;
+}
+
+#tekst {
+    position: relative;
+    top: -206vw;
+    left: 43vw;
+    font-family: 'Covered By Your Grace', cursive;
 }
 
 
@@ -160,11 +219,15 @@ h4 {
 
 
 
+
     body {
         overflow: hidden;
     }
 
 
+
+
+    /*
 
     #header nav {
         height: 4vh;
@@ -182,7 +245,7 @@ h4 {
         position: relative;
         display: inline-block;
         padding: 7px;
-        /*        background-color: papayawhip;*/
+                background-color: papayawhip;
         width: 100px;
         padding: 8px 40px;
         margin: -7px;
@@ -202,9 +265,22 @@ h4 {
     nav a:hover {
         background-color: #FED8F5;
     }
+*/
 
 
+    #footer {
+        position: relative;
+        top: -63.4vw;
+        background-color: gainsboro;
+    }
 
+    #footer p {
+        display: flex;
+        justify-content: center;
+        color: rosybrown;
+
+
+    }
 
 
     h1 {
@@ -234,29 +310,11 @@ h4 {
 
 
 
-
-
-    /*
-    .mySlides {
-
-        position: relative;
-        left: -5.5vw;
-
-        bottom: 108.5vw;
-        width: 34vw;
-
-        border-radius: 3.7vw;
-
-
-    }
-*/
-
-
     #fifht_section .section_wrapper {
         display: grid;
         grid-template-columns: 3fr 3fr;
         column-gap: 120px;
-        padding: 90px -40px;
+        /*        padding: 90px -40px;*/
         margin-left: 90px;
         left: 100px;
 
@@ -272,9 +330,9 @@ h4 {
 
     #fifht_section .button {
         position: relative;
-        left: 0vw;
+        left: 53vw;
 
-        top: 2vw;
+        top: -50vw;
         max-width: 15%;
 
 
@@ -290,12 +348,7 @@ h4 {
     }
 */
 
-    #fifth_section .section_wrapper .col .h4 {
 
-        color: burlywood;
-        font-size: 1.3rem;
-
-    }
 
     #fifth_section .col {
         background-color: aqua;
@@ -315,23 +368,38 @@ h4 {
 
     }
 
+
+    .mySlides {
+        position: relative;
+        top: -79.8vw;
+        width: 39%;
+        border-radius: 2vw;
+        left: -5vw;
+    }
+
+
     #fifth_section .col .container a p {
         position: relative;
         top: 2vw;
     }
 
-
+    #tekst {
+        position: relative;
+        top: -55vw;
+        left: 66.6vw;
+        font-family: 'Covered By Your Grace', cursive;
+    }
 
     .note {
         position: relative;
         top: -26vw;
-        left: 16vw;
+        left: 50vw;
     }
 
     .note2 {
         position: relative;
-        top: -69vw;
-        left: 6vw;
+        top: -26vw;
+        left: 10vw;
     }
 
 

@@ -1,12 +1,64 @@
 body {
     margin: 0;
-    background-image: url(billeder/baggrund.jpg);
-    background-position: bottom;
-    /*    overflow: hidden;*/
 
+    /*    overflow: hidden;*/
 
 }
 
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #FDEDED;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: rosybrown;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidebar a:hover {
+    color: rgba(206, 132, 186, 0.91);
+}
+
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #FDEDED;
+    color: rosybrown;
+    padding: 10px 15px;
+    border: none;
+}
+
+.openbtn:hover {
+    background-color: #444;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+
+/*
 header {
     position: relative;
     height: 0;
@@ -39,7 +91,7 @@ header img {
     position: relative;
     display: inline-block;
     padding: 7px;
-    /*        background-color: papayawhip;*/
+            background-color: papayawhip;
     width: 100px;
     padding: 8px 40px;
     margin: -33px;
@@ -63,6 +115,7 @@ nav a:hover {
 nav a:first-child {
     display: inline;
 }
+*/
 
 
 
@@ -84,7 +137,7 @@ img {
 
 
 section {
-    max-width: 1200px;
+    /*    max-width: 1200px;*/
 
     margin: 0 auto;
     padding: 0;
@@ -98,106 +151,84 @@ section {
 
 }
 
-/*
 #fourth_section .section_wrapper .col {
 
-    position: relative;
-    left: 1vw;
-    top: -68vw;
+    padding: 40px;
 }
-*/
 
 
 
 h4 {
-    font-family: 'Rock Salt', cursive;
+    font-family: 'Rock Salt';
 
     color: burlywood;
     font-size: 1.3rem;
 
 }
 
-.bill {
-
-
-    left: 35.3vw;
-    bottom: 82.6vw;
+.mySlides {
     position: relative;
-    width: 30%;
+    bottom: 425.5vw;
+    width: 35.4%;
+    left: 34.6vw;
 }
 
 .bill1 {
 
 
 
-    left: 0.35vw;
-    bottom: 6.6vw;
+    left: -6.2vw;
+    bottom: -3.6vw;
     position: relative;
+    width: 117%;
 
 }
 
-/*
-.bill {
-
-    grid-column: 1/2;
-    grid-row: 1/2;
-    width: 29.3vw;
-    left: 6.8vw;
-    bottom: 72.9vw;
+.note {
     position: relative;
+    left: -30vw;
+    top: -32.7vw;
 
 }
-
-.bill1 {
-
-    width: 87.2vw;
-    left: -22.65vw;
-    bottom: 6.6vw;
-    position: relative;
-
-}
-
 
 .note1 {
     position: relative;
-    left: 6vw;
+    left: -2vw;
 
-    top: -249.7vw;
+    top: -121.7vw;
 }
 
 .note2 {
     position: relative;
-    left: 10vw;
-
-    top: -328.2vw;
+    left: 24vw;
+    top: -210.2vw;
 }
 
-
-.bill {
-
-
+.container .tekst {
     position: relative;
-    left: -2vw;
-
-    top: 44vw;
-    width: 100vw;
+    top: -76vw;
+    left: 9vw;
 
 
 }
 
-
-
-.button {
+.container .tekst1 {
     position: relative;
-    left: 0vw;
-
-    top: 66vw;
-    max-width: 15%;
-
+    top: -165vw;
+    left: 32vw;
 
 
 }
-*/
+
+.container .tekst2 {
+    position: relative;
+    top: -254vw;
+    left: 61vw;
+
+}
+
+
+
 
 
 
@@ -210,6 +241,15 @@ h4 {
 
 
 
+    body {
+        overflow: hidden;
+        background-image: url(billeder/b.jpg);
+
+    }
+
+
+
+    /*
 
     #header nav {
         height: 4vh;
@@ -227,7 +267,6 @@ h4 {
         position: relative;
         display: inline-block;
         padding: 7px;
-        /*        background-color: papayawhip;*/
         width: 100px;
         padding: 8px 40px;
         margin: -7px;
@@ -249,8 +288,21 @@ h4 {
     }
 
 
+*/
+
+    #footer {
+        position: relative;
+        top: -119.8vw;
+        background-color: gainsboro;
+    }
+
+    #footer p {
+        display: flex;
+        justify-content: center;
+        color: rosybrown;
 
 
+    }
 
     h1 {
         font-family: cursive;
@@ -283,7 +335,7 @@ h4 {
 
     #fourth_section .section_wrapper {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
         column-gap: 120px;
         margin-left: 90px;
         overflow: hidden;
@@ -292,16 +344,7 @@ h4 {
     }
 
 
-    .bill {
 
-        grid-column: 1/2;
-        grid-row: 1/2;
-        width: 14.1vw;
-        left: 16.4vw;
-        bottom: -4.6vw;
-        position: relative;
-
-    }
 
     .bill1 {
 
@@ -319,23 +362,38 @@ h4 {
         grid-row: 1/2;
         position: relative;
         left: -4vw;
+
+
+
     }
 
+    .mySlides {
+        position: relative;
+        bottom: 124vw;
+        width: 17%;
+        left: 14.3vw;
 
+    }
 
 
 
     .container .tekst {
         position: relative;
-        top: -34vw;
-        left: 3.4vw;
+        top: -31vw;
+        left: 0.6vw;
+    }
+
+    .container .tekst1 {
+        position: relative;
+        top: -66.5vw;
+        left: 10.2vw;
     }
 
 
     .container .tekst2 {
         position: relative;
-        top: -75vw;
-        left: 13.2vw;
+        top: -101.6vw;
+        left: 22.2vw;
     }
 
 
@@ -353,40 +411,25 @@ h4 {
 
     .note1 {
         position: relative;
-        left: -2vw;
+        left: -4vw;
 
-        top: -54.7vw;
+        top: -49vw;
         max-width: 100%;
     }
 
     .note2 {
         position: relative;
-        left: 10vw;
+        left: 7vw;
 
-        top: -95.2vw;
+        top: -84.2vw;
         max-width: 100%;
     }
 
-
-    #fourth_section .section_wrapper .h4 {
-        font-family: 'Rock Salt', cursive;
-
-        color: burlywood;
-        font-size: 1.3rem;
-
+    #diasshow {
+        height: 30vw;
     }
 
 
-    /*
-    .bill {
-
-
-        grid-column: 4/5;
-        grid-row: 1/2;
-
-
-    }
-*/
 
 
 }

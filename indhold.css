@@ -1,0 +1,215 @@
+body {
+    margin: 0;
+}
+
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #FDEDED;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: rosybrown;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidebar a:hover {
+    color: rgba(206, 132, 186, 0.91);
+}
+
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #FDEDED;
+    color: rosybrown;
+    padding: 10px 15px;
+    border: none;
+}
+
+.openbtn:hover {
+    background-color: #444;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+h2 {
+    font-family: cursive;
+    color: #E2A244;
+    text-align: center;
+    text-shadow: 1px 1px 1px #2D3A2A;
+    font-size: 2rem;
+}
+
+h3 {
+    font-family: 'Rock Salt';
+    color: #E2A244;
+    text-align: center;
+    text-shadow: 1px 1px 1px #2D3A2A;
+    font-size: 2rem;
+}
+
+h4 {
+    font-family: 'Rock Salt';
+
+    color: burlywood;
+    font-size: 1.3rem;
+
+}
+
+#sixth_section .section_wrapper .col {
+    padding: 40px;
+}
+
+#seven_section .section_wrapper .col {
+    padding: 40px;
+}
+
+
+
+.note {
+    position: relative;
+    top: -33vw;
+    left: 24vw;
+}
+
+
+.note1 {
+    position: relative;
+    top: -135vw;
+    left: -20vw;
+}
+
+/*------------------ web----------------------*/
+@media only screen and (min-width: 600px) {
+
+
+
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    #footer {
+        position: relative;
+        top: 6.8vw;
+        background-color: gainsboro;
+    }
+
+    #footer p {
+        display: flex;
+        justify-content: center;
+        color: rosybrown;
+
+
+    }
+
+    #tekst {
+        position: relative;
+        top: -42vw;
+        left: 57vw;
+        font-family: 'Covered By Your Grace', cursive;
+
+    }
+
+    #tekst1 {
+        position: relative;
+        top: -91vw;
+        left: 71vw;
+        font-family: 'Covered By Your Grace', cursive;
+        font-size: 1.5rem;
+
+    }
+
+
+    #sixth_section .section_wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-left: 42px;
+        column-gap: 8vw;
+        padding: 0px;
+
+    }
+
+    #sixth_section .section_wrapper p {
+        /*        font-size: 2rem;*/
+    }
+
+
+    #seven_section .section_wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-left: 42px;
+        column-gap: 8vw;
+        padding: 0px;
+
+    }
+
+    /*
+    #seven_section {
+        background-image: url(billeder/skateboard.png);
+    }
+
+
+    #seven_section .section_wrapper .col {
+        background-color: white;
+    }
+*/
+
+
+    .note {
+        position: relative;
+        top: -18vw;
+        left: 39vw;
+    }
+
+
+
+    .note1 {
+        position: relative;
+        top: -66.5vw;
+        left: 52vw;
+    }
+
+
+
+    .video {
+        position: relative;
+        top: 7vw;
+    }
+
+
+    .video2 {
+        position: relative;
+        top: 7vw;
+    }

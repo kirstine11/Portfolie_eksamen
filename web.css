@@ -6,6 +6,60 @@ body {
 
 }
 
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #FDEDED;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: rosybrown;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidebar a:hover {
+    color: rgba(206, 132, 186, 0.91);
+}
+
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #FDEDED;
+    color: rosybrown;
+    padding: 10px 15px;
+    border: none;
+}
+
+.openbtn:hover {
+    background-color: #444;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+/*
+
 header {
     position: relative;
     height: 0;
@@ -37,7 +91,7 @@ header img {
     position: relative;
     display: inline-block;
     padding: 7px;
-    /*        background-color: papayawhip;*/
+            background-color: papayawhip;
     width: 100px;
     padding: 8px 40px;
     margin: -33px;
@@ -64,6 +118,7 @@ nav a:first-child {
 }
 
 
+*/
 
 
 h1 {
@@ -137,6 +192,7 @@ section {
 
 
 
+/*
 #third_section h2 {
     font-family: cursive;
     color: #E2A244;
@@ -144,9 +200,10 @@ section {
     text-shadow: 1px 1px 1px #2D3A2A;
     font-size: 2rem;
 }
+*/
 
 #third_section .section_wrapper h4 {
-    font-family: 'Rock Salt', cursive;
+    font-family: 'Rock Salt';
     color: burlywood;
     font-size: 1.3rem;
 
@@ -161,7 +218,9 @@ section {
 
 
 
-
+    body {
+        overflow: hidden;
+    }
 
     nav a:hover {
         background-color: #FED8F5;
@@ -191,6 +250,21 @@ section {
         padding: 0;
     }
 
+    #footer {
+        position: relative;
+        top: -11.4vw;
+        background-color: gainsboro;
+    }
+
+    #footer p {
+        display: flex;
+        justify-content: center;
+        color: rosybrown;
+
+
+    }
+
+    /*
 
     #header nav {
         height: 10vh;
@@ -210,7 +284,7 @@ section {
         position: relative;
         display: inline-block;
         padding: 7px;
-        /*        background-color: papayawhip;*/
+                background-color: papayawhip;
         width: 100px;
         padding: 8px 40px;
         margin: -7px;
@@ -228,6 +302,7 @@ section {
 
 
     }
+*/
 
 
 

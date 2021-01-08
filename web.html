@@ -12,59 +12,66 @@
 
 <body>
 
-    <header id="header">
-
-
-        <nav>
-            <a href="index.html#first_section">Home</a>
+    <main>
+        <div id="mySidebar" class="sidebar">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+            <a href="index.html">Forside</a>
             <a href="om.html">Om</a>
             <a href="web.html">Web</a>
-            <a href="ux.html">UX</a>
+            <a href="ux.html">Ux</a>
             <a href="animation.html">Animation</a>
-            <a href="index.html#sixth_section">Indhold</a>
+            <a href="indhold.html">Indhold</a>
 
-        </nav>
-
-
-    </header>
-
-    <section id="third_section">
-
-
-
-        <h1>Grundlæggende web</h1>
-        <div class="section_wrapper">
-
-
-
-            <div class="col">
-                <h4>Responsive site</h4>
-                <p>I første tema arbejdede vi med grundlæggende web. Her blev vi introduceret for HTML og CSS. Vi blev delt op i grupper og fik udelt en stilart i hver gruppe. Min stilart var "Digitalt retro-design (90’erne)". Denne stil er ikke en stil man ser så meget i dag. Det var mere en stil man brugte da internettet var helt nyt.
-                    Billeder der bliver brugt til retro design fra 90'erne, er oftest fyldt med neon farver. I 90'erne blev der brugt mere grafik end billeder. Man brugte eksempelvis overskrifter til at vække folks opmærksomhed ved at bruge en kraftig eller sjov farve til teksten. Derfor valgte jeg at sætte fokus på sjove og kraftige farver. Jeg vil gerne have min hjemmeside blev meget overdrevet, hvilket førte til den ikke blev særlig pæn. Det var også sjældent hjemmesider var flotte tilbage i 90'erne. </p>
-
-
-            </div>
-            <div class="container">
-                <a href="http://kirstinekrogs.dk/kea/02_web/responsive_v2/index.html#sixth_section"> <img class="button" src="billeder/search.png" alt="search"></a>
-
-                <div class="js">
-                    <button onclick="typeWriter()">Link </button>
-                    <div id="tekst">
-                        <p></p>
-                    </div>
-
-                </div>
-
-            </div>
-            <div class="bill">
-                <img src="favicon.jpg" alt="favicon">
-            </div>
 
         </div>
 
+        <div id="main">
+            <button class="openbtn" onclick="openNav()">☰ Menu</button>
+        </div>
+
+        <section id="third_section">
 
 
-    </section>
+
+            <h1>Grundlæggende web</h1>
+            <div class="section_wrapper">
+
+
+
+                <div class="col">
+                    <h4>Responsive site</h4>
+                    <p>I første tema arbejdede vi med grundlæggende web. Her blev vi introduceret for HTML og CSS. Vi blev delt op i grupper og fik udelt en stilart i hver gruppe. Min stilart var "Digitalt retro-design (90’erne)". Denne stil er ikke en stil man ser så meget i dag. Det var mere en stil man brugte da internettet var helt nyt.
+                        Billeder der bliver brugt til retro design fra 90'erne, er oftest fyldt med neon farver. I 90'erne blev der brugt mere grafik end billeder. Man brugte eksempelvis overskrifter til at vække folks opmærksomhed ved at bruge en kraftig eller sjov farve til teksten. Derfor valgte jeg at sætte fokus på sjove og kraftige farver. Jeg vil gerne have min hjemmeside blev meget overdrevet, hvilket førte til den ikke blev særlig pæn. Det var også sjældent hjemmesider var flotte tilbage i 90'erne. </p>
+
+
+                </div>
+                <div class="container">
+                    <a href="http://kirstinekrogs.dk/kea/02_web/responsive_v2/index.html#sixth_section"> <img class="button" src="billeder/search.png" alt="search"></a>
+
+                    <div class="js">
+                        <button onclick="typeWriter()">Link </button>
+                        <div id="tekst">
+                            <p></p>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="bill">
+                    <img src="favicon.jpg" alt="favicon">
+                </div>
+
+            </div>
+
+
+
+        </section>
+
+        <footer id="footer">
+            <p>KEA Multimediedesign - Kirstine Hejbøl Krogshede</p>
+
+        </footer>
+    </main>
     <script src="web.js"></script>
 </body>
 

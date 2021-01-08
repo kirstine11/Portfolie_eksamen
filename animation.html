@@ -6,44 +6,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>portfolie</title>
     <link rel="stylesheet" href="animation.css">
+    <link href="https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <header id="header">
-        <nav>
-            <a href="index.html#first_section">Home</a>
+    <main>
+        <div id="mySidebar" class="sidebar">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+            <a href="index.html">Forside</a>
             <a href="om.html">Om</a>
             <a href="web.html">Web</a>
-            <a href="index.html#fourth_section">UX</a>
+            <a href="ux.html">Ux</a>
             <a href="animation.html">Animation</a>
-            <a href="index.html#sixth_section">Indhold</a>
-
-        </nav>
-    </header>
-    <section id="fifht_section">
+            <a href="indhold.html">Indhold</a>
 
 
-        <h1>Animation</h1>
-        <div class="section_wrapper">
-            <div class="bill">
-                <img src="computer.jpg" alt="computer">
-            </div>
+        </div>
+
+        <div id="main">
+            <button class="openbtn" onclick="openNav()">☰ Menu</button>
+        </div>
+        <section id="fifht_section">
 
 
-            <div class="col">
-                <h4>Grundlæggende animation</h4>
-                <div class="Tekst">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea quidem ullam inventore minus voluptates dolor veritatis. Omnis ipsa veniam enim Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi ratione, perspiciatis qui ea non ad, voluptas, pariatur modi debitis neque placeat? Repellendus tenetur impedit id, quibusdam sunt deserunt aperiam, praesentium maxime inventore similique vero rem quisquam provident alias minima saepe facilis. Perspiciatis, repellat unde expedita nobis reiciendis ducimus omnis pariatur. </p>
+            <h1>Animation</h1>
+            <div class="section_wrapper">
+                <div class="bill">
+                    <img src="computer.jpg" alt="computer">
                 </div>
 
-                <div class="container">
-                    <a href="http://kirstinekrogs.dk/kea/04_animation/Spil/ "> <img class="button" src="play.png" alt="Spil nu"></a>
-                    <a href="http://kirstinekrogs.dk/kea/04_animation/Spil/ ">
-                        <p>Dokumentationsliste</p>
-                    </a>
 
-
-
+                <div class="col">
+                    <h4>Grundlæggende animation</h4>
+                    <div class="Tekst">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea quidem ullam inventore minus voluptates dolor veritatis. Omnis ipsa veniam enim Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi ratione, perspiciatis qui ea non ad, voluptas, pariatur modi debitis neque placeat? Repellendus tenetur impedit id, quibusdam sunt deserunt aperiam, praesentium maxime inventore similique vero rem quisquam provident alias minima saepe facilis. Perspiciatis, repellat unde expedita nobis reiciendis ducimus omnis pariatur. </p>
+                    </div>
 
                 </div>
                 <div class="note">
@@ -53,20 +50,38 @@
                     <img src="billeder/note3.png" alt="note">
                 </div>
 
+                <div class="container">
+                    <a href="http://kirstinekrogs.dk/kea/04_animation/Spil/ "> <img class="button" src="play.png" alt="Spil nu"></a>
+                    <a href="http://kirstinekrogs.dk/kea/04_animation/Assets/assetliste.html ">
+                        <div id="tekst">
+                            <p>Dokumentationsliste</p>
+                        </div>
+                    </a>
 
+
+
+
+
+
+                </div>
             </div>
-        </div>
-        <section id="diasshow">
-            <img width="1300" height="300" class="mySlides" src="Artboards/start-skaerm.svg" alt="Startskaerm">
-            <img width="1300" height="300" class="mySlides" src="Artboards/spilskaerm.svg" alt="spilskaerm">
-            <img width="1300" height="300" class="mySlides" src="Artboards/game-over.svg" alt="Gameover">
-            <img width="1300" height="300" class="mySlides" src="Artboards/level-complete.svg" alt="levelcomplete">
+            <section id="diasshow">
+                <img width="1300" height="300" class="mySlides" src="Artboards/start-skaerm.svg" alt="Startskaerm">
+                <img width="1300" height="300" class="mySlides" src="Artboards/spilskaerm.svg" alt="spilskaerm">
+                <img width="1300" height="300" class="mySlides" src="Artboards/game-over.svg" alt="Gameover">
+                <img width="1300" height="300" class="mySlides" src="Artboards/level-complete.svg" alt="levelcomplete">
+
+            </section>
+
+
 
         </section>
 
+        <footer id="footer">
+            <p>KEA Multimediedesign - Kirstine Hejbøl Krogshede</p>
 
-
-    </section>
+        </footer>
+    </main>
     <script src="animation.js"></script>
 </body>
 
