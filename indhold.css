@@ -86,11 +86,11 @@ h4 {
 
 }
 
-#sixth_section .section_wrapper .col {
+#indhold_section .indhold_box .col {
     padding: 40px;
 }
 
-#seven_section .section_wrapper .col {
+#indhold_section2 .indhold_box2 .col {
     padding: 40px;
 }
 
@@ -105,12 +105,38 @@ h4 {
 
 .note1 {
     position: relative;
-    top: -135vw;
+    top: -146vw;
     left: -20vw;
 }
 
+#footer {
+    position: relative;
+    top: 281.2vw;
+    background-color: #fdf9f9;
+}
+
+#footer p {
+    display: flex;
+    justify-content: center;
+    color: #cec5c9;
+
+
+}
+
+#tekst1 {
+    position: relative;
+    top: -91vw;
+    left: 71vw;
+    font-family: 'Covered By Your Grace', cursive;
+    font-size: 1.5rem;
+
+
+}
+
+
 /*------------------ web----------------------*/
 @media only screen and (min-width: 600px) {
+
 
 
 
@@ -122,22 +148,22 @@ h4 {
 
     #footer {
         position: relative;
-        top: 6.8vw;
-        background-color: gainsboro;
+        top: -72.8vw;
     }
 
     #footer p {
         display: flex;
         justify-content: center;
-        color: rosybrown;
 
 
     }
 
     #tekst {
+
         position: relative;
         top: -42vw;
         left: 57vw;
+
         font-family: 'Covered By Your Grace', cursive;
 
     }
@@ -149,42 +175,43 @@ h4 {
         font-family: 'Covered By Your Grace', cursive;
         font-size: 1.5rem;
 
+
     }
 
 
-    #sixth_section .section_wrapper {
+    #indhold_section .indhold_box {
         display: grid;
         grid-template-columns: 1fr 1fr;
+
         margin-left: 42px;
         column-gap: 8vw;
         padding: 0px;
+        overflow: hidden;
 
     }
 
-    #sixth_section .section_wrapper p {
+    #indhold_section .indhold_box p {
         /*        font-size: 2rem;*/
     }
 
 
-    #seven_section .section_wrapper {
+    #indhold_section2 .indhold_box2 {
         display: grid;
         grid-template-columns: 1fr 1fr;
+
         margin-left: 42px;
         column-gap: 8vw;
         padding: 0px;
 
     }
 
-    /*
-    #seven_section {
-        background-image: url(billeder/skateboard.png);
-    }
 
 
-    #seven_section .section_wrapper .col {
+
+    #indhold_section2 .indhold_box2 .col {
         background-color: white;
     }
-*/
+
 
 
     .note {
@@ -204,12 +231,14 @@ h4 {
 
 
     .video {
-        position: relative;
-        top: 7vw;
+
+        padding-top: 11vw;
+
+
     }
 
 
     .video2 {
-        position: relative;
-        top: 7vw;
+        padding-top: 6vw;
+
     }

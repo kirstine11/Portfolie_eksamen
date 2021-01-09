@@ -1,7 +1,6 @@
 body {
     margin: 0;
 
-    /*    overflow: hidden;*/
 
 }
 
@@ -58,64 +57,6 @@ body {
 }
 
 
-/*
-header {
-    position: relative;
-    height: 0;
-}
-
-
-
-header img {
-    width: auto;
-    display: block;
-}
-
-
-
-#header nav {
-    height: 4vh;
-    padding: 1.2rem;
-    text-transform: uppercase;
-    font-weight: 800;
-    font-size: 0.7rem;
-    text-align: right;
-    display: inline-block;
-    justify-content: space-around;
-    font-family: 'Rock Salt', cursive;
-
-
-}
-
-#header nav a {
-    position: relative;
-    display: inline-block;
-    padding: 7px;
-            background-color: papayawhip;
-    width: 100px;
-    padding: 8px 40px;
-    margin: -33px;
-    border-radius: 20px;
-    text-align: center;
-    max-width: 1200rem;
-    color: burlywood;
-
-    left: -6vw;
-    top: -3.8vw;
-
-    column-gap: 20px;
-
-
-}
-
-nav a:hover {
-    background-color: papayawhip;
-}
-
-nav a:first-child {
-    display: inline;
-}
-*/
 
 
 
@@ -144,19 +85,34 @@ section {
 
 }
 
-#fourth_section {
+#ux_section {
 
     overflow-x: hidden;
     max-width: 1200rem;
 
+
 }
 
-#fourth_section .section_wrapper .col {
+#ux_section .ux_box .col {
 
     padding: 40px;
+
 }
 
 
+#footer {
+    position: relative;
+    bottom: 281.2vw;
+    background-color: #fdf9f9;
+}
+
+#footer p {
+    display: flex;
+    justify-content: center;
+    color: #cec5c9;
+
+
+}
 
 h4 {
     font-family: 'Rock Salt';
@@ -241,6 +197,8 @@ h4 {
 
 
 
+
+
     body {
         overflow: hidden;
         background-image: url(billeder/b.jpg);
@@ -249,60 +207,20 @@ h4 {
 
 
 
-    /*
 
-    #header nav {
-        height: 4vh;
-        padding: 1.2rem;
-        text-transform: uppercase;
-        font-weight: 800;
-        font-size: 1.2rem;
-        text-align: right;
-        display: inline-block;
-        justify-content: space-around;
-
-    }
-
-    #header nav a {
-        position: relative;
-        display: inline-block;
-        padding: 7px;
-        width: 100px;
-        padding: 8px 40px;
-        margin: -7px;
-        border-radius: 20px;
-        text-align: center;
-        max-width: 1200rem;
-        color: burlywood;
-
-        left: 11vw;
-        top: -0.8vw;
-
-        column-gap: 20px;
-
-
-    }
-
-    nav a:hover {
-        background-color: #FED8F5;
-    }
-
-
-*/
 
     #footer {
         position: relative;
-        top: -119.8vw;
-        background-color: gainsboro;
+        bottom: 58.8vw;
     }
 
     #footer p {
         display: flex;
         justify-content: center;
-        color: rosybrown;
 
 
     }
+
 
     h1 {
         font-family: cursive;
@@ -333,13 +251,12 @@ h4 {
 
 
 
-    #fourth_section .section_wrapper {
+    #ux_section .ux_box {
         display: grid;
         grid-template-columns: 1fr 1fr;
         column-gap: 120px;
         margin-left: 90px;
         overflow: hidden;
-
 
     }
 
@@ -357,7 +274,7 @@ h4 {
 
     }
 
-    #fourth_section .section_wrapper .col {
+    #ux_section .ux_box .col {
         grid-column: 2/4;
         grid-row: 1/2;
         position: relative;
@@ -369,7 +286,7 @@ h4 {
 
     .mySlides {
         position: relative;
-        bottom: 124vw;
+        bottom: 63vw;
         width: 17%;
         left: 14.3vw;
 
@@ -381,12 +298,16 @@ h4 {
         position: relative;
         top: -31vw;
         left: 0.6vw;
+        font-family: 'Covered By Your Grace', cursive;
+
     }
 
     .container .tekst1 {
         position: relative;
         top: -66.5vw;
         left: 10.2vw;
+        font-family: 'Covered By Your Grace', cursive;
+
     }
 
 
@@ -394,10 +315,14 @@ h4 {
         position: relative;
         top: -101.6vw;
         left: 22.2vw;
+        font-family: 'Covered By Your Grace', cursive;
+
     }
 
 
-
+    .container {
+        height: 45vw;
+    }
 
 
     .note {

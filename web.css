@@ -58,67 +58,19 @@ body {
     padding: 16px;
 }
 
-/*
-
-header {
+#footer {
     position: relative;
-    height: 0;
+    top: 11.2vw;
+    background-color: #fdf9f9;
 }
 
-
-
-header img {
-    width: auto;
-    display: block;
-}
-
-
-#header nav {
-    height: 4vh;
-    padding: 1.2rem;
-    text-transform: uppercase;
-    font-weight: 800;
-    font-size: 0.7rem;
-    text-align: right;
-    display: inline-block;
-    justify-content: space-around;
-    font-family: 'Rock Salt', cursive;
+#footer p {
+    display: flex;
+    justify-content: center;
+    color: #cec5c9;
 
 
 }
-
-#header nav a {
-    position: relative;
-    display: inline-block;
-    padding: 7px;
-            background-color: papayawhip;
-    width: 100px;
-    padding: 8px 40px;
-    margin: -33px;
-    border-radius: 20px;
-    text-align: center;
-    max-width: 1200rem;
-    color: burlywood;
-
-    left: -6vw;
-    top: 0.2vw;
-
-    column-gap: 20px;
-
-
-}
-
-
-nav a:hover {
-    background-color: papayawhip;
-}
-
-nav a:first-child {
-    display: inline;
-}
-
-
-*/
 
 
 h1 {
@@ -146,7 +98,7 @@ section {
 
 
 
-#third_section {
+#web_section {
 
     overflow-x: hidden;
     max-width: 1200rem;
@@ -155,7 +107,7 @@ section {
 
 }
 
-#third_section .section_wrapper .bill {
+#web_section .web_box .bill {
 
     column-gap: 0px;
     margin-left: 0px;
@@ -172,7 +124,7 @@ section {
 
 }
 
-#third_section #tekst {
+#web_section #tekst {
 
     position: relative;
 
@@ -182,27 +134,9 @@ section {
 
 }
 
-/*
-#third_section .section_wrapper {
-
-    padding: 10px 50px;
-    margin-left: 10px;
-}
-*/
 
 
-
-/*
-#third_section h2 {
-    font-family: cursive;
-    color: #E2A244;
-    text-align: center;
-    text-shadow: 1px 1px 1px #2D3A2A;
-    font-size: 2rem;
-}
-*/
-
-#third_section .section_wrapper h4 {
+h4 {
     font-family: 'Rock Salt';
     color: burlywood;
     font-size: 1.3rem;
@@ -253,63 +187,20 @@ section {
     #footer {
         position: relative;
         top: -11.4vw;
-        background-color: gainsboro;
     }
 
     #footer p {
         display: flex;
         justify-content: center;
-        color: rosybrown;
 
 
     }
 
-    /*
-
-    #header nav {
-        height: 10vh;
-        padding: 1.2rem;
-        text-transform: uppercase;
-        font-weight: 800;
-        font-size: 1.2rem;
-        text-align: right;
-        display: inline-block;
-        justify-content: space-around;
-        font-family: 'Rock Salt', cursive;
-
-
-    }
-
-    #header nav a {
-        position: relative;
-        display: inline-block;
-        padding: 7px;
-                background-color: papayawhip;
-        width: 100px;
-        padding: 8px 40px;
-        margin: -7px;
-        border-radius: 20px;
-        text-align: center;
-        max-width: 1200rem;
-        color: burlywood;
-
-
-
-        left: 11vw;
-        top: -0.8vw;
-
-        column-gap: 20px;
-
-
-    }
-*/
 
 
 
 
-
-
-    #third_section .section_wrapper {
+    #web_section .web_box {
         display: grid;
         grid-template-columns: 3fr 3fr;
 
@@ -321,7 +212,7 @@ section {
     }
 
 
-    #third_section .section_wrapper .bill {
+    #web_section .web_box .bill {
         display: grid;
         grid-column: 2/2;
         grid-row: 1/2;
@@ -338,7 +229,8 @@ section {
 
 
 
-    #third_section h4 {
+
+    h4 {
         text-align: center;
     }
 
@@ -346,7 +238,8 @@ section {
 
 
 
-    #third_section #tekst {
+
+    #web_section #tekst {
 
         position: relative;
 
