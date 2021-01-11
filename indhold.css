@@ -1,5 +1,8 @@
 body {
     margin: 0;
+    background-color: rgba(234, 218, 222, 0.62);
+
+
 }
 
 .sidebar {
@@ -52,6 +55,7 @@ body {
 #main {
     transition: margin-left .5s;
     padding: 16px;
+
 }
 
 
@@ -68,6 +72,7 @@ h2 {
     text-align: center;
     text-shadow: 1px 1px 1px #2D3A2A;
     font-size: 2rem;
+
 }
 
 h3 {
@@ -88,30 +93,38 @@ h4 {
 
 #indhold_section .indhold_box .col {
     padding: 40px;
+    background-color: #fff6fa;
 }
 
 #indhold_section2 .indhold_box2 .col {
     padding: 40px;
+
 }
 
-
+#indhold_section2 {
+    overflow: hidden;
+    height: 80rem;
+}
 
 .note {
     position: relative;
-    top: -33vw;
-    left: 24vw;
+    top: 10vw;
+    left: 7vw;
+    width: 35vw;
 }
 
 
 .note1 {
     position: relative;
-    top: -146vw;
-    left: -20vw;
+    top: -42vw;
+    left: 46vw;
+    width: 35vw;
+
 }
 
 #footer {
     position: relative;
-    top: 281.2vw;
+    top: 3.8vw;
     background-color: #fdf9f9;
 }
 
@@ -123,10 +136,23 @@ h4 {
 
 }
 
+#tekst {
+    position: relative;
+    top: -16vw;
+    left: 9vw;
+    font-family: 'Covered By Your Grace', cursive;
+    font-size: 1.2rem;
+
+
+}
+
+
 #tekst1 {
     position: relative;
-    top: -91vw;
-    left: 71vw;
+
+    top: -70vw;
+    left: 54vw;
+
     font-family: 'Covered By Your Grace', cursive;
     font-size: 1.5rem;
 
@@ -140,7 +166,6 @@ h4 {
 
 
 
-
     img {
         max-width: 100%;
         height: auto;
@@ -148,7 +173,7 @@ h4 {
 
     #footer {
         position: relative;
-        top: -72.8vw;
+        top: 1.8vw;
     }
 
     #footer p {
@@ -161,22 +186,30 @@ h4 {
     #tekst {
 
         position: relative;
-        top: -42vw;
-        left: 57vw;
+        top: -11vw;
+        left: 56vw;
 
-        font-family: 'Covered By Your Grace', cursive;
+        font-size: 1.4rem;
+
 
     }
 
     #tekst1 {
         position: relative;
-        top: -91vw;
-        left: 71vw;
-        font-family: 'Covered By Your Grace', cursive;
+        top: -32vw;
+        left: 73vw;
         font-size: 1.5rem;
 
 
     }
+
+
+    #indhold_section {
+        height: 52rem;
+
+
+    }
+
 
 
     #indhold_section .indhold_box {
@@ -188,10 +221,23 @@ h4 {
         padding: 0px;
         overflow: hidden;
 
+
+
     }
 
     #indhold_section .indhold_box p {
         /*        font-size: 2rem;*/
+    }
+
+    #indhold_section2 {
+
+        height: 48rem;
+        overflow-x: hidden;
+        max-width: 1200rem;
+
+
+
+
     }
 
 
@@ -202,30 +248,30 @@ h4 {
         margin-left: 42px;
         column-gap: 8vw;
         padding: 0px;
+        height: 45rem;
+        overflow: hidden;
 
     }
 
-
-
-
-    #indhold_section2 .indhold_box2 .col {
-        background-color: white;
-    }
 
 
 
     .note {
         position: relative;
-        top: -18vw;
-        left: 39vw;
+        top: -2vw;
+        left: 55vw;
+        width: 14vw;
+
+
     }
 
 
 
     .note1 {
         position: relative;
-        top: -66.5vw;
-        left: 52vw;
+        top: -22.5vw;
+        left: 70vw;
+        width: 14vw;
     }
 
 
@@ -242,3 +288,4 @@ h4 {
         padding-top: 6vw;
 
     }
+}

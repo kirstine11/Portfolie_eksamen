@@ -1,8 +1,7 @@
 body {
     margin: 0;
-    background-image: url(billeder/baggrund.jpg);
-    background-position: 110%;
-    /*    overflow: hidden;*/
+    background-color: rgba(234, 218, 222, 0.62);
+
 
 }
 
@@ -186,7 +185,7 @@ h4 {
 
     #footer {
         position: relative;
-        top: -11.4vw;
+        top: -16.4vw;
     }
 
     #footer p {
@@ -227,9 +226,6 @@ h4 {
 
 
 
-
-
-
     h4 {
         text-align: center;
     }
@@ -255,7 +251,7 @@ h4 {
         position: relative;
         left: 26vw;
 
-        top: -3vw;
+        top: -8vw;
 
         max-width: 60%;
     }
@@ -263,7 +259,7 @@ h4 {
 
     .js {
         position: relative;
-        top: -13vw;
+        top: -18vw;
         left: 27vw;
 
     }

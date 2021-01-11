@@ -1,9 +1,12 @@
 body {
     margin: 0;
-
+    background-color: rgba(234, 218, 222, 0.62);
 
 
 }
+
+
+
 
 .sidebar {
     height: 100%;
@@ -78,16 +81,22 @@ section {
     max-width: 1200px;
 
     margin: 0 auto;
-    padding: 0;
+    padding: 0px;
 
 }
 
 #animation_section {
 
-    overflow-x: hidden;
-    max-width: 1200rem;
+    overflow: hidden;
+    height: 80rem;
 
 }
+
+/*
+#diasshow {
+    height: 1rem;
+}
+*/
 
 
 
@@ -104,9 +113,9 @@ h4 {
 
 
 
-.mySlides {
+#diasshow .mySlides {
     position: relative;
-    top: -390.6vw;
+    top: -238.6vw;
     border-radius: 14vw;
     left: 2.5vw;
     width: 95%;
@@ -115,9 +124,9 @@ h4 {
 
 .button {
     position: relative;
-    left: 4vw;
+    left: 67vw;
 
-    top: -184vw;
+    top: 17vw;
     max-width: 30%;
 
 }
@@ -125,34 +134,39 @@ h4 {
 .note {
     position: relative;
 
-    top: -19vw;
-    left: 6vw;
+    top: 16vw;
+    left: 5vw;
+    width: 30vw;
 
 }
 
-.note2 {
+
+
+.note1 {
     position: relative;
-    top: -120vw;
-    left: 32vw;
+    top: -34.6vw;
+    left: 5vw;
+    width: 30vw;
 }
 
 #tekst {
     position: relative;
-    top: -206vw;
-    left: 45vw;
+    top: -8vw;
+    left: 39vw;
     font-family: 'Covered By Your Grace', cursive;
+    font-size: 1.5rem;
 }
 
 #tekst1 {
     position: relative;
-    top: -212.5vw;
-    left: 68.6vw;
+    top: -54.5vw;
+    left: 6.6vw;
     font-family: 'Covered By Your Grace', cursive;
 }
 
 #footer {
     position: relative;
-    bottom: 281.2vw;
+    bottom: -3.8vw;
     background-color: #fdf9f9;
 }
 
@@ -162,6 +176,11 @@ h4 {
     color: #cec5c9;
 
 
+
+}
+
+.col {
+    padding: 40px;
 }
 
 
@@ -178,6 +197,7 @@ h4 {
 
     body {
         overflow: hidden;
+
     }
 
 
@@ -185,7 +205,7 @@ h4 {
 
     #footer {
         position: relative;
-        top: -66vw;
+        top: -39.3vw;
     }
 
     #footer p {
@@ -221,29 +241,30 @@ h4 {
     }
 
 
+    .col {
+        padding: 0px;
+    }
+
 
 
     #animation_section .animation_box {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        column-gap: 120px;
+        column-gap: 7px;
         /*        padding: 90px -40px;*/
         margin-left: 90px;
 
     }
 
-    #animation_section .animation_box .col {
-        margin-right: 5vw;
-    }
 
 
 
     .button {
         position: relative;
-        left: 53vw;
+        left: 67vw;
 
-        top: -50vw;
-        max-width: 15%;
+        top: -10vw;
+        max-width: 17%;
 
 
 
@@ -254,30 +275,35 @@ h4 {
     .bill {
 
         width: 35vw;
+        position: relative;
+        left: -6vw;
     }
 
-    .mySlides {
+
+    #diasshow .mySlides {
         position: relative;
-        top: -84.7vw;
+        top: -59vw;
         width: 39%;
         border-radius: 2vw;
-        left: -1vw;
+        left: 1.3vw;
 
     }
+
 
 
 
     #tekst {
         position: relative;
-        top: -55vw;
-        left: 66.6vw;
+        top: -16.4vw;
+        left: 45.6vw;
         font-family: 'Covered By Your Grace', cursive;
+        font-size: 1.3rem;
     }
 
     #tekst1 {
         position: relative;
-        top: -57.5vw;
-        left: 77.6vw;
+        top: -31.5vw;
+        left: 55.6vw;
         font-family: 'Covered By Your Grace', cursive;
     }
 
@@ -287,17 +313,19 @@ h4 {
     .note {
         position: relative;
 
-        top: -26vw;
-        left: 50vw;
+        top: -9vw;
+        left: 38vw;
+        width: 10vw;
 
     }
 
 
 
-    .note2 {
+    .note1 {
         position: relative;
-        top: -26vw;
-        left: 10vw;
+        top: -24.6vw;
+        left: 55vw;
+        width: 10vw;
     }
 
 

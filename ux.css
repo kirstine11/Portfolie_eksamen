@@ -1,5 +1,7 @@
 body {
     margin: 0;
+    background-color: rgba(234, 218, 222, 0.62);
+
 
 
 }
@@ -87,8 +89,9 @@ section {
 
 #ux_section {
 
-    overflow-x: hidden;
-    max-width: 1200rem;
+
+    overflow: hidden;
+    height: 80rem;
 
 
 }
@@ -102,7 +105,7 @@ section {
 
 #footer {
     position: relative;
-    bottom: 281.2vw;
+    bottom: -4vw;
     background-color: #fdf9f9;
 }
 
@@ -201,7 +204,10 @@ h4 {
 
     body {
         overflow: hidden;
+
         background-image: url(billeder/b.jpg);
+        background-color: rgba(234, 218, 222, 0.62);
+
 
     }
 
@@ -211,7 +217,7 @@ h4 {
 
     #footer {
         position: relative;
-        bottom: 58.8vw;
+        bottom: 39.2vw;
     }
 
     #footer p {
@@ -243,20 +249,23 @@ h4 {
     section {
         max-width: 1200px;
         margin: 0 auto;
-        padding: 0;
+        padding: 0px;
     }
 
 
+    #ux_section .ux_box .col {
 
+        padding: 0px;
+
+    }
 
 
 
     #ux_section .ux_box {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        column-gap: 120px;
-        margin-left: 90px;
-        overflow: hidden;
+        column-gap: 100px;
+        margin-left: 0px;
 
     }
 
@@ -280,15 +289,13 @@ h4 {
         position: relative;
         left: -4vw;
 
-
-
     }
 
     .mySlides {
         position: relative;
-        bottom: 63vw;
+        bottom: 69vw;
         width: 17%;
-        left: 14.3vw;
+        left: 16.3vw;
 
     }
 
@@ -296,58 +303,60 @@ h4 {
 
     .container .tekst {
         position: relative;
-        top: -31vw;
-        left: 0.6vw;
+        top: -8vw;
+        left: 2vw;
         font-family: 'Covered By Your Grace', cursive;
+        font-size: 2.5rem;
 
     }
 
     .container .tekst1 {
         position: relative;
-        top: -66.5vw;
-        left: 10.2vw;
+        top: -24.5vw;
+        left: 12.2vw;
         font-family: 'Covered By Your Grace', cursive;
+        font-size: 2rem;
+
 
     }
 
 
     .container .tekst2 {
         position: relative;
-        top: -101.6vw;
-        left: 22.2vw;
+        top: -41vw;
+        left: 25.2vw;
         font-family: 'Covered By Your Grace', cursive;
+        font-size: 2.5rem;
+
 
     }
 
 
-    .container {
-        height: 45vw;
-    }
 
 
     .note {
         position: relative;
-        left: -15vw;
+        left: 0vw;
 
-        top: -13.7vw;
-        max-width: 100%;
+        top: -1vw;
+        width: 40%;
     }
 
 
     .note1 {
         position: relative;
-        left: -4vw;
+        left: 11.5vw;
 
-        top: -49vw;
-        max-width: 100%;
+        top: -18vw;
+        width: 40%;
     }
 
     .note2 {
         position: relative;
-        left: 7vw;
+        left: 23.4vw;
 
-        top: -84.2vw;
-        max-width: 100%;
+        top: -34.3vw;
+        width: 40%;
     }
 
     #diasshow {
