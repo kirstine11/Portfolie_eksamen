@@ -127,7 +127,7 @@ h4 {
 
 .mySlides {
     position: relative;
-    bottom: 425.5vw;
+    bottom: 305.1vw;
     width: 35.4%;
     left: 34.6vw;
 }
@@ -145,44 +145,60 @@ h4 {
 
 .note {
     position: relative;
-    left: -30vw;
-    top: -32.7vw;
+    left: 1vw;
+    top: -6.5vw;
+    width: 30%;
 
 }
 
 .note1 {
     position: relative;
-    left: -2vw;
+    left: 28vw;
 
-    top: -121.7vw;
+    top: -40.7vw;
+    width: 30%;
+
 }
 
 .note2 {
     position: relative;
-    left: 24vw;
-    top: -210.2vw;
+    left: 52vw;
+    top: -75.2vw;
+    width: 30%;
+
 }
 
 .container .tekst {
     position: relative;
-    top: -76vw;
+    top: -20vw;
     left: 9vw;
+    font-family: 'Covered By Your Grace', cursive;
+    font-size: 1.5rem;
+
+
 
 
 }
 
 .container .tekst1 {
     position: relative;
-    top: -165vw;
-    left: 32vw;
+    top: -53vw;
+    left: 31vw;
+    font-family: 'Covered By Your Grace', cursive;
+    font-size: 1.5rem;
+
+
 
 
 }
 
 .container .tekst2 {
     position: relative;
-    top: -254vw;
-    left: 61vw;
+    top: -88vw;
+    left: 59vw;
+    font-family: 'Covered By Your Grace', cursive;
+    font-size: 1.8rem;
+
 
 }
 
