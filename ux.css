@@ -265,7 +265,7 @@ h4 {
         display: grid;
         grid-template-columns: 1fr 1fr;
         column-gap: 100px;
-        margin-left: 0px;
+        margin-left: -70px;
 
     }
 
@@ -293,9 +293,9 @@ h4 {
 
     .mySlides {
         position: relative;
-        bottom: 69vw;
+        bottom: 68vw;
         width: 17%;
-        left: 16.3vw;
+        left: 11.56vw;
 
     }
 
@@ -312,7 +312,7 @@ h4 {
 
     .container .tekst1 {
         position: relative;
-        top: -24.5vw;
+        top: -22.8vw;
         left: 12.2vw;
         font-family: 'Covered By Your Grace', cursive;
         font-size: 2rem;
@@ -323,7 +323,7 @@ h4 {
 
     .container .tekst2 {
         position: relative;
-        top: -41vw;
+        top: -38vw;
         left: 25.2vw;
         font-family: 'Covered By Your Grace', cursive;
         font-size: 2.5rem;
@@ -339,7 +339,7 @@ h4 {
         left: 0vw;
 
         top: -1vw;
-        width: 40%;
+        width: 30%;
     }
 
 
@@ -347,16 +347,16 @@ h4 {
         position: relative;
         left: 11.5vw;
 
-        top: -18vw;
-        width: 40%;
+        top: -16vw;
+        width: 30%;
     }
 
     .note2 {
         position: relative;
         left: 23.4vw;
 
-        top: -34.3vw;
-        width: 40%;
+        top: -30.5vw;
+        width: 30%;
     }
 
     #diasshow {
